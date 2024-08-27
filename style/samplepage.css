@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto 5em;
+  width:100%;
+  max-width:40em;
+  font-size:1em;
+  background:#FFFFFF;
+  font-family:Verdana,"PingFang SC","Microsoft YaHei",微软雅黑,'Hiragino Sans',ヒラギノ角ゴシック,STXiHei,"Microsoft JhengHei",'Yu Gothic',sans-serif;
+}
+
+a{cursor:pointer;}
+
+a{color:#503380;text-decoration:none;transition:color 0.3s;}
+a:visited{color:#503380}
+a:active{color:#CC3399}
+a:hover{color:#CC3399}
+
+div img{width:50px;border:0;padding-top:0.2em}
+.title{font-size:1.5em;margin:3em auto 2em;text-align:center;line-height:2em;cursor:default}
+.list{padding:0 0.5em;cursor:pointer;color:#333;font-size:1.1em;line-height:2em;border-bottom-style:dotted;border-bottom-width:1px;border-bottom-color:#666666;letter-spacing:0.1em;}
+.box2{float:left;width:100%;margin-bottom:5em}
+.info{padding:0.1em 0 0.5em 0.4em;float:center;text-align:left;color:#666666;font-size:0.9em;line-height:1.25em;letter-spacing:2px;}
+.conl{float:left;width:45%;padding:0 0 0 2%}
+.conr{float:right;width:47%;border-left-style:dotted;border-left-color:#44617b;border-left-width:1px;padding:0 2%}
+
+div.conl p,div.conr p,div.cont p{margin:1.1em 0 0;line-height:1.5em;}
+div.cont p {padding-left:0.8em;}
+.words{text-align:right;color:#808080;padding:0 0.8em;font-size:0.9em;}
+.tags{text-align:right;color:#cc80aa;padding:0 0.8em;font-size:0.9em;}
+p.detail{color:#d0af4c;text-align:right;padding-right:1em}
+span.detail{font-size:0.94em;color:#d0af4c;margin-left:1.25em;}
+.list_title {padding:0 0 0 0.5em;font-size:1.1em;letter-spacing:0.2em;color:#000;}
+.list_title::before{content:'- '}
+summary {cursor:pointer;}
+
+p.list_title + p {margin-top:0.5em;}
+p + p.list_title {margin-top:2em;}
+
+.back a{color:#808080;text-decoration:none}
+.back a:visited{color:#808080}
+.back a:active{color:#ff9999}
+.back a:hover{color:#ff9999}

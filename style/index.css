@@ -1,0 +1,69 @@
+body {
+  background-color: #FFFFFF;
+}
+.header {
+  cursor: default;
+  margin: 1.5em auto 2em;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: #333333;
+  font-family: Lora,'Palatino Linotype','Book Antiqua','New York','DejaVu serif',serif;
+  font-weight: bold;
+}
+.default {
+  color: #808080;
+  cursor: default;
+  margin: 0 auto 1em;
+  width:25em;
+  font-size: 1em;
+  font-family: "PingFang SC","Microsoft YaHei",微软雅黑,STXiHei,'Hiragino Sans',ヒラギノ角ゴシック,'Yu Gothic',sans-serif;
+}
+@media screen and (max-width: 720px){
+  .default{max-width:90%;}
+}
+.default p {
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+.default strong {
+  color: #666;
+}
+.links {
+  color: #663399;
+  cursor: pointer;
+  margin: 3em auto 0.5em;
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  letter-spacing:1px;
+}
+.contact {
+  color: #808080;
+  cursor: default;
+  margin: 0 auto 1em;
+  text-align:center;
+  font-size: 1em;
+  font-family: Consolas, "Courier New", Courier, monospace;
+}
+.contact p {
+  margin: 0.5em 0 1em;
+  line-height: 1.6em;
+}
+a {
+  color: #503380;
+  text-decoration: none;
+  transition: color 0.3s;
+  }
+a:visited {
+  color:#503380;
+}
+a:active {
+  color:#CC3399;
+}
+a:hover {
+  color:#CC3399;
+}
+.greyA {
+  color:#AAAAAA;
+}
