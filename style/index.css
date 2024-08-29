@@ -3,14 +3,27 @@ body {
 }
 .header {
   cursor: default;
-  margin: 1.5em auto 2em;
+  margin: 0 auto;
+  padding: 1em 0 0;
   text-align: center;
-  font-size: 2em;
+  line-height:1.35em;
+  font-size: 1.75em;
   letter-spacing: 0.1em;
-  color: #333333;
+  color: #666666;
   font-family: Lora,'Palatino Linotype','Book Antiqua','New York','DejaVu serif',serif;
   font-weight: bold;
 }
+
+.header img {
+	width: 2.5em;
+	cursor: pointer;
+}
+
+.icon_info {
+	font-weight: normal;
+	font-size: 0.57em;
+}
+
 .default {
   color: #808080;
   cursor: default;
@@ -32,7 +45,7 @@ body {
 .links {
   color: #663399;
   cursor: pointer;
-  margin: 3em auto 0.5em;
+  margin: 2.75em auto 0.5em;
   text-align: center;
   font-size: 1.25em;
   line-height: 1.25em;

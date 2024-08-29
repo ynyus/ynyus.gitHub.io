@@ -16,6 +16,8 @@ a:hover{color:#CC3399}
 
 div img{width:50px;border:0;padding-top:0.2em}
 .title{font-size:1.5em;margin:3em auto 2em;text-align:center;line-height:2em;cursor:default}
+.description{margin:3em auto;text-align:center;font-family:Lora,'Palatino Linotype','Book Antiqua','New York','DejaVu serif',serif;}
+
 .list{padding:0 0.5em;cursor:pointer;color:#333;font-size:1.1em;line-height:2em;border-bottom-style:dotted;border-bottom-width:1px;border-bottom-color:#666666;letter-spacing:0.1em;}
 .box2{float:left;width:100%;margin-bottom:5em}
 .info{padding:0.1em 0 0.5em 0.4em;float:center;text-align:left;color:#666666;font-size:0.9em;line-height:1.25em;letter-spacing:2px;}
