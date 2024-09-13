@@ -1,5 +1,5 @@
 const samplecontent = `
-<div class="title">标题</div>
+<div class="title">Daytime Dating</div>
 <div class="summary"><p>初版Word字数统计：6,605</p></div>
 <div class="text">
 <p>这是约会。</p>
